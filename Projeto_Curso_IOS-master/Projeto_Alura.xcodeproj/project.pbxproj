@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C008A3D023D769A4008C273B /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C008A3CF23D769A4008C273B /* RefeicoesTableViewController.swift */; };
+		C043CB3F23D5EC4B0032F244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043CB3E23D5EC4B0032F244 /* AppDelegate.swift */; };
+		C043CB4123D5EC4B0032F244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043CB4023D5EC4B0032F244 /* SceneDelegate.swift */; };
+		C043CB4323D5EC4B0032F244 /* AdicionarRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043CB4223D5EC4B0032F244 /* AdicionarRefeicaoViewController.swift */; };
+		C043CB4623D5EC4B0032F244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C043CB4423D5EC4B0032F244 /* Main.storyboard */; };
+		C043CB4823D5EC4D0032F244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C043CB4723D5EC4D0032F244 /* Assets.xcassets */; };
+		C043CB4B23D5EC4D0032F244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C043CB4923D5EC4D0032F244 /* LaunchScreen.storyboard */; };
+		C043CB5623D5EC4E0032F244 /* Projeto_AluraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043CB5523D5EC4E0032F244 /* Projeto_AluraTests.swift */; };
+		C043CB6123D5EC4E0032F244 /* Projeto_AluraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043CB6023D5EC4E0032F244 /* Projeto_AluraUITests.swift */; };
+		C05A9BE223E62C3F00D37DC2 /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A9BE123E62C3F00D37DC2 /* RefeicaoDao.swift */; };
+		C05A9BE423E62F4300D37DC2 /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A9BE323E62F4300D37DC2 /* ItemDao.swift */; };
+		C05A9BEB23E7035300D37DC2 /* CadastroRefeicao.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A9BE623E7035200D37DC2 /* CadastroRefeicao.png */; };
+		C05A9BEC23E7035300D37DC2 /* Remover.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A9BE723E7035200D37DC2 /* Remover.png */; };
+		C05A9BED23E7035300D37DC2 /* HomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A9BE823E7035300D37DC2 /* HomeScreen.png */; };
+		C05A9BEE23E7035300D37DC2 /* SelecionarItens.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A9BE923E7035300D37DC2 /* SelecionarItens.png */; };
+		C05A9BEF23E7035300D37DC2 /* CadastroItemRefeicao.png in Resources */ = {isa = PBXBuildFile; fileRef = C05A9BEA23E7035300D37DC2 /* CadastroItemRefeicao.png */; };
+		C05BDD6923DB7842001497E0 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05BDD6723DB7842001497E0 /* AdicionarItensViewController.swift */; };
+		C05BDD6A23DB7842001497E0 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05BDD6823DB7842001497E0 /* AdicionarItensViewController.xib */; };
+		C05BF1E523D670CD003BD19F /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05BF1E423D670CD003BD19F /* Refeicao.swift */; };
+		C05BF1E723D67222003BD19F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05BF1E623D67222003BD19F /* Item.swift */; };
+		C07C2B6523DFCCB100634D31 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C2B6423DFCCB100634D31 /* Alerta.swift */; };
+		C0B8289123E3A495000ACA92 /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B8289023E3A495000ACA92 /* RemoveRefeicaoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C043CB5223D5EC4E0032F244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C043CB3323D5EC4B0032F244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C043CB3A23D5EC4B0032F244;
+			remoteInfo = Projeto_Alura;
+		};
+		C043CB5D23D5EC4E0032F244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C043CB3323D5EC4B0032F244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C043CB3A23D5EC4B0032F244;
+			remoteInfo = Projeto_Alura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C008A3CF23D769A4008C273B /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		C043CB3B23D5EC4B0032F244 /* Projeto_Alura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projeto_Alura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C043CB3E23D5EC4B0032F244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C043CB4023D5EC4B0032F244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C043CB4223D5EC4B0032F244 /* AdicionarRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarRefeicaoViewController.swift; sourceTree = "<group>"; };
+		C043CB4523D5EC4B0032F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C043CB4723D5EC4D0032F244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C043CB4A23D5EC4D0032F244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C043CB4C23D5EC4D0032F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C043CB5123D5EC4E0032F244 /* Projeto_AluraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projeto_AluraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C043CB5523D5EC4E0032F244 /* Projeto_AluraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_AluraTests.swift; sourceTree = "<group>"; };
+		C043CB5723D5EC4E0032F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C043CB5C23D5EC4E0032F244 /* Projeto_AluraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Projeto_AluraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C043CB6023D5EC4E0032F244 /* Projeto_AluraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projeto_AluraUITests.swift; sourceTree = "<group>"; };
+		C043CB6223D5EC4E0032F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05A9BE123E62C3F00D37DC2 /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		C05A9BE323E62F4300D37DC2 /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
+		C05A9BE623E7035200D37DC2 /* CadastroRefeicao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CadastroRefeicao.png; sourceTree = "<group>"; };
+		C05A9BE723E7035200D37DC2 /* Remover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Remover.png; sourceTree = "<group>"; };
+		C05A9BE823E7035300D37DC2 /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
+		C05A9BE923E7035300D37DC2 /* SelecionarItens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelecionarItens.png; sourceTree = "<group>"; };
+		C05A9BEA23E7035300D37DC2 /* CadastroItemRefeicao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CadastroItemRefeicao.png; sourceTree = "<group>"; };
+		C05BDD6723DB7842001497E0 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		C05BDD6823DB7842001497E0 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		C05BF1E423D670CD003BD19F /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		C05BF1E623D67222003BD19F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C07C2B6423DFCCB100634D31 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		C0B8289023E3A495000ACA92 /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C043CB3823D5EC4B0032F244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043CB4E23D5EC4E0032F244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043CB5923D5EC4E0032F244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C043CB3223D5EC4B0032F244 = {
+			isa = PBXGroup;
+			children = (
+				C043CB3D23D5EC4B0032F244 /* Projeto_Alura */,
+				C043CB5423D5EC4E0032F244 /* Projeto_AluraTests */,
+				C043CB5F23D5EC4E0032F244 /* Projeto_AluraUITests */,
+				C043CB3C23D5EC4B0032F244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C043CB3C23D5EC4B0032F244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C043CB3B23D5EC4B0032F244 /* Projeto_Alura.app */,
+				C043CB5123D5EC4E0032F244 /* Projeto_AluraTests.xctest */,
+				C043CB5C23D5EC4E0032F244 /* Projeto_AluraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C043CB3D23D5EC4B0032F244 /* Projeto_Alura */ = {
+			isa = PBXGroup;
+			children = (
+				C043CB3E23D5EC4B0032F244 /* AppDelegate.swift */,
+				C05A9BE523E641B900D37DC2 /* image */,
+				C05BF1E823D6741B003BD19F /* Models */,
+				C05BF1EA23D6745F003BD19F /* Views */,
+				C05BF1E923D6743D003BD19F /* Controllers */,
+				C043CB4023D5EC4B0032F244 /* SceneDelegate.swift */,
+				C043CB4723D5EC4D0032F244 /* Assets.xcassets */,
+				C043CB4923D5EC4D0032F244 /* LaunchScreen.storyboard */,
+				C043CB4C23D5EC4D0032F244 /* Info.plist */,
+			);
+			path = Projeto_Alura;
+			sourceTree = "<group>";
+		};
+		C043CB5423D5EC4E0032F244 /* Projeto_AluraTests */ = {
+			isa = PBXGroup;
+			children = (
+				C043CB5523D5EC4E0032F244 /* Projeto_AluraTests.swift */,
+				C043CB5723D5EC4E0032F244 /* Info.plist */,
+			);
+			path = Projeto_AluraTests;
+			sourceTree = "<group>";
+		};
+		C043CB5F23D5EC4E0032F244 /* Projeto_AluraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C043CB6023D5EC4E0032F244 /* Projeto_AluraUITests.swift */,
+				C043CB6223D5EC4E0032F244 /* Info.plist */,
+			);
+			path = Projeto_AluraUITests;
+			sourceTree = "<group>";
+		};
+		C05A9BE523E641B900D37DC2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				C05A9BEA23E7035300D37DC2 /* CadastroItemRefeicao.png */,
+				C05A9BE623E7035200D37DC2 /* CadastroRefeicao.png */,
+				C05A9BE823E7035300D37DC2 /* HomeScreen.png */,
+				C05A9BE723E7035200D37DC2 /* Remover.png */,
+				C05A9BE923E7035300D37DC2 /* SelecionarItens.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		C05BF1E823D6741B003BD19F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C05BF1E423D670CD003BD19F /* Refeicao.swift */,
+				C05BF1E623D67222003BD19F /* Item.swift */,
+				C07C2B6423DFCCB100634D31 /* Alerta.swift */,
+				C05A9BE123E62C3F00D37DC2 /* RefeicaoDao.swift */,
+				C05A9BE323E62F4300D37DC2 /* ItemDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C05BF1E923D6743D003BD19F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C05BDD6723DB7842001497E0 /* AdicionarItensViewController.swift */,
+				C043CB4223D5EC4B0032F244 /* AdicionarRefeicaoViewController.swift */,
+				C008A3CF23D769A4008C273B /* RefeicoesTableViewController.swift */,
+				C0B8289023E3A495000ACA92 /* RemoveRefeicaoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C05BF1EA23D6745F003BD19F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C043CB4423D5EC4B0032F244 /* Main.storyboard */,
+				C05BDD6823DB7842001497E0 /* AdicionarItensViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C043CB3A23D5EC4B0032F244 /* Projeto_Alura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C043CB6523D5EC4E0032F244 /* Build configuration list for PBXNativeTarget "Projeto_Alura" */;
+			buildPhases = (
+				C043CB3723D5EC4B0032F244 /* Sources */,
+				C043CB3823D5EC4B0032F244 /* Frameworks */,
+				C043CB3923D5EC4B0032F244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Projeto_Alura;
+			productName = Projeto_Alura;
+			productReference = C043CB3B23D5EC4B0032F244 /* Projeto_Alura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C043CB5023D5EC4E0032F244 /* Projeto_AluraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C043CB6823D5EC4E0032F244 /* Build configuration list for PBXNativeTarget "Projeto_AluraTests" */;
+			buildPhases = (
+				C043CB4D23D5EC4E0032F244 /* Sources */,
+				C043CB4E23D5EC4E0032F244 /* Frameworks */,
+				C043CB4F23D5EC4E0032F244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C043CB5323D5EC4E0032F244 /* PBXTargetDependency */,
+			);
+			name = Projeto_AluraTests;
+			productName = Projeto_AluraTests;
+			productReference = C043CB5123D5EC4E0032F244 /* Projeto_AluraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C043CB5B23D5EC4E0032F244 /* Projeto_AluraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C043CB6B23D5EC4E0032F244 /* Build configuration list for PBXNativeTarget "Projeto_AluraUITests" */;
+			buildPhases = (
+				C043CB5823D5EC4E0032F244 /* Sources */,
+				C043CB5923D5EC4E0032F244 /* Frameworks */,
+				C043CB5A23D5EC4E0032F244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C043CB5E23D5EC4E0032F244 /* PBXTargetDependency */,
+			);
+			name = Projeto_AluraUITests;
+			productName = Projeto_AluraUITests;
+			productReference = C043CB5C23D5EC4E0032F244 /* Projeto_AluraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C043CB3323D5EC4B0032F244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gabriel Zambelli";
+				TargetAttributes = {
+					C043CB3A23D5EC4B0032F244 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					C043CB5023D5EC4E0032F244 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C043CB3A23D5EC4B0032F244;
+					};
+					C043CB5B23D5EC4E0032F244 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = C043CB3A23D5EC4B0032F244;
+					};
+				};
+			};
+			buildConfigurationList = C043CB3623D5EC4B0032F244 /* Build configuration list for PBXProject "Projeto_Alura" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C043CB3223D5EC4B0032F244;
+			productRefGroup = C043CB3C23D5EC4B0032F244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C043CB3A23D5EC4B0032F244 /* Projeto_Alura */,
+				C043CB5023D5EC4E0032F244 /* Projeto_AluraTests */,
+				C043CB5B23D5EC4E0032F244 /* Projeto_AluraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C043CB3923D5EC4B0032F244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A9BEF23E7035300D37DC2 /* CadastroItemRefeicao.png in Resources */,
+				C043CB4B23D5EC4D0032F244 /* LaunchScreen.storyboard in Resources */,
+				C043CB4823D5EC4D0032F244 /* Assets.xcassets in Resources */,
+				C05A9BEC23E7035300D37DC2 /* Remover.png in Resources */,
+				C05BDD6A23DB7842001497E0 /* AdicionarItensViewController.xib in Resources */,
+				C05A9BEB23E7035300D37DC2 /* CadastroRefeicao.png in Resources */,
+				C05A9BED23E7035300D37DC2 /* HomeScreen.png in Resources */,
+				C05A9BEE23E7035300D37DC2 /* SelecionarItens.png in Resources */,
+				C043CB4623D5EC4B0032F244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043CB4F23D5EC4E0032F244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043CB5A23D5EC4E0032F244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C043CB3723D5EC4B0032F244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C2B6523DFCCB100634D31 /* Alerta.swift in Sources */,
+				C05BF1E723D67222003BD19F /* Item.swift in Sources */,
+				C043CB4323D5EC4B0032F244 /* AdicionarRefeicaoViewController.swift in Sources */,
+				C0B8289123E3A495000ACA92 /* RemoveRefeicaoViewController.swift in Sources */,
+				C05A9BE423E62F4300D37DC2 /* ItemDao.swift in Sources */,
+				C05A9BE223E62C3F00D37DC2 /* RefeicaoDao.swift in Sources */,
+				C05BDD6923DB7842001497E0 /* AdicionarItensViewController.swift in Sources */,
+				C043CB3F23D5EC4B0032F244 /* AppDelegate.swift in Sources */,
+				C008A3D023D769A4008C273B /* RefeicoesTableViewController.swift in Sources */,
+				C043CB4123D5EC4B0032F244 /* SceneDelegate.swift in Sources */,
+				C05BF1E523D670CD003BD19F /* Refeicao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043CB4D23D5EC4E0032F244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C043CB5623D5EC4E0032F244 /* Projeto_AluraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043CB5823D5EC4E0032F244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C043CB6123D5EC4E0032F244 /* Projeto_AluraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C043CB5323D5EC4E0032F244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C043CB3A23D5EC4B0032F244 /* Projeto_Alura */;
+			targetProxy = C043CB5223D5EC4E0032F244 /* PBXContainerItemProxy */;
+		};
+		C043CB5E23D5EC4E0032F244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C043CB3A23D5EC4B0032F244 /* Projeto_Alura */;
+			targetProxy = C043CB5D23D5EC4E0032F244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C043CB4423D5EC4B0032F244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C043CB4523D5EC4B0032F244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C043CB4923D5EC4D0032F244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C043CB4A23D5EC4D0032F244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C043CB6323D5EC4E0032F244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C043CB6423D5EC4E0032F244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C043CB6623D5EC4E0032F244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQCXZ48D36;
+				INFOPLIST_FILE = Projeto_Alura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielzambelli.Projeto-Alura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C043CB6723D5EC4E0032F244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQCXZ48D36;
+				INFOPLIST_FILE = Projeto_Alura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielzambelli.Projeto-Alura";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C043CB6923D5EC4E0032F244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQCXZ48D36;
+				INFOPLIST_FILE = Projeto_AluraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielzambelli.Projeto-AluraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto_Alura.app/Projeto_Alura";
+			};
+			name = Debug;
+		};
+		C043CB6A23D5EC4E0032F244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQCXZ48D36;
+				INFOPLIST_FILE = Projeto_AluraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielzambelli.Projeto-AluraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Projeto_Alura.app/Projeto_Alura";
+			};
+			name = Release;
+		};
+		C043CB6C23D5EC4E0032F244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQCXZ48D36;
+				INFOPLIST_FILE = Projeto_AluraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielzambelli.Projeto-AluraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Projeto_Alura;
+			};
+			name = Debug;
+		};
+		C043CB6D23D5EC4E0032F244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQCXZ48D36;
+				INFOPLIST_FILE = Projeto_AluraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielzambelli.Projeto-AluraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Projeto_Alura;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C043CB3623D5EC4B0032F244 /* Build configuration list for PBXProject "Projeto_Alura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C043CB6323D5EC4E0032F244 /* Debug */,
+				C043CB6423D5EC4E0032F244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C043CB6523D5EC4E0032F244 /* Build configuration list for PBXNativeTarget "Projeto_Alura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C043CB6623D5EC4E0032F244 /* Debug */,
+				C043CB6723D5EC4E0032F244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C043CB6823D5EC4E0032F244 /* Build configuration list for PBXNativeTarget "Projeto_AluraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C043CB6923D5EC4E0032F244 /* Debug */,
+				C043CB6A23D5EC4E0032F244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C043CB6B23D5EC4E0032F244 /* Build configuration list for PBXNativeTarget "Projeto_AluraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C043CB6C23D5EC4E0032F244 /* Debug */,
+				C043CB6D23D5EC4E0032F244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C043CB3323D5EC4B0032F244 /* Project object */;
+}
